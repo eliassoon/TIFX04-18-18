@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="Mellasapp.Page3" 
+            Title="Measuring" 
+            Icon="Icon3.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                   <Button Text="Start measuring" 
+                           Clicked="OnAlertYesNoClicked"
+                           BackgroundColor="Purple"
+                           TextColor="White"
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Center" 
+                           FontSize="20"/>
+            </StackLayout>
+        </ContentPage.Content>     
+    </ContentPage>  

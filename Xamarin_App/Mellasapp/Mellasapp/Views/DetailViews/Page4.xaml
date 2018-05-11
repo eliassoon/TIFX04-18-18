@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="Mellasapp.Page4"
+            Title="My Profile" 
+            Icon="Icon2.png"
+            BackgroundColor="White">
+                     
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                <Label Text="My Profile" FontSize="30"/>
+                    <Entry Text="Name"></Entry>
+                    <Entry Text="Age"></Entry>
+                    <Entry Text="My Horse"></Entry>
+            
+                   <Button Text="Save"
+                           BackgroundColor="Black"
+                           TextColor="White"
+                           FontSize="18"
+                           Clicked="Handle_Clicked"/>
+            </StackLayout>
+        </ContentPage.Content>     
+    </ContentPage> 

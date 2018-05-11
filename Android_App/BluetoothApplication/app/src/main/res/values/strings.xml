@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Perfecto</string>
+    <string name="message_recieved">Recieved message</string>
+    <string name="bt_connect">Connect Raspberry</string>
+    <string name="bt_send">Start sensor</string>
+    <string name="title_activity_connected">Connected</string>
+    <string name="image_content_description">Image description</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+              x:Class="Mellasapp.Page2_1" 
+              Title="My Horse"
+              Icon="Icon1.png">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Purple" 
+                      Margin="10,10,10,10" 
+                      Padding="10"
+                      VerticalOptions="Center" >
+            <BoxView BackgroundColor="White">
+            </BoxView>
+            <Entry Text="Entry" BackgroundColor="Silver" TextColor="Black">
+            </Entry>
+            <DatePicker>
+            </DatePicker>
+            <Editor Text="Editor">
+            </Editor>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

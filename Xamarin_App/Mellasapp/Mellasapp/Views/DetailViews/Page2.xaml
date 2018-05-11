@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Mellasapp.Page2" Title = "My Statistics" Icon="statistics.png">
+    
+
+     <ContentPage BackgroundColor="Purple">
+        <StackLayout HorizontalOptions="Center" 
+                     VerticalOptions="Center">
+               <Label Text="My Data" TextColor="White"/>
+        </StackLayout>
+    </ContentPage>
+
+
+     <ContentPage BackgroundColor="Teal">
+        <StackLayout HorizontalOptions="Center" 
+                     VerticalOptions="Center">
+            <Label Text="Statistics" TextColor="White"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Navy">
+        <StackLayout HorizontalOptions="Center" 
+                      VerticalOptions="Center">
+            <Label Text="Take off" TextColor="White"/>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>

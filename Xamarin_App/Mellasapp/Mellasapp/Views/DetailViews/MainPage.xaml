@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Mellasapp"
+    x:Class="Mellasapp.MainPage"
+    Title="Perfecto" 
+    BarTextColor="Purple">
+  
+
+    <local:Page4>
+    </local:Page4>
+     <local:Page2_1> 
+    </local:Page2_1>
+    <local:Page3>
+    </local:Page3>
+    <local:Page2>
+    </local:Page2>
+    <local:Page1>
+    </local:Page1>
+
+   
+
+
+
+</TabbedPage>
+
+
+
